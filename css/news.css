@@ -10,3 +10,78 @@
 
 /* ==========   News Block   ========== */
 
+.news-block {
+  background: white;
+  padding: 30px 25px;
+}
+
+.news-title {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 6px;
+  margin-bottom: 30px;
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.news-item-border {
+  padding: 3px;
+  background: linear-gradient(90deg, crimson, tomato, gold, yellowgreen, olivedrab, skyblue, rebeccapurple);
+  display: inline-block;
+  width: 550px;
+  margin-bottom: 10px;
+}
+
+.news-item {
+  background: white;
+  display: inline-block;
+  padding: 20px;
+}
+
+.date-block {
+  margin-left: 420px;
+  margin-bottom: 20px;
+}
+
+.date-block img {
+  position: relative;
+  top: 4px;
+  margin-right: 5px;
+}
+
+.date-block p {
+  display: inline-block;
+}
+
+.news-item-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.news-item-text {
+  text-indent: 25px;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.news-item-btn {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  float: right;
+  text-align: center;
+  width: 150px;
+  padding: 12px 0;
+  background: #fef0f4;
+}
+
+.news-item-btn:hover {
+  cursor: pointer;
+}
