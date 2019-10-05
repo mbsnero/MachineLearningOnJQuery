@@ -63,7 +63,6 @@
 .main-block-container {
   width: 1170px;
   margin: 0 auto;
-  /* background:  linear-gradient(to right, red, blue); */
   background: linear-gradient(90deg, crimson, tomato, gold, yellowgreen, olivedrab, skyblue, rebeccapurple);
   padding: 3px;
 }
@@ -80,17 +79,23 @@
 
 .main-nav-item:hover {
   background-color: #fef0f4;
+  box-sizing: border-box;
+}
+
+.main-nav-link:nth-child(1) .main-nav-item {
+  background-color: #fef0f4;
 }
 
 .main-nav-item {
   width: 168px;
+  height: 80px;
   margin-right: -5px;
   display: inline-block;
   box-sizing: border-box;
 }
 
 .main-nav-link:nth-child(1) .main-nav-item {
-  border-bottom: 3px solid #dc133c;
+  border-bottom: 8px solid #dc133c;
 }
 
 .main-nav-link:nth-child(2) .main-nav-item {
@@ -117,6 +122,34 @@
   border-bottom: 3px solid #663399;
 }
 
+.main-nav-link:nth-child(1) .main-nav-item:hover {
+  border-bottom: 8px solid #dc133c;
+}
+
+.main-nav-link:nth-child(2) .main-nav-item:hover {
+  border-bottom: 8px solid #ff6248;
+}
+
+.main-nav-link:nth-child(3) .main-nav-item:hover {
+  border-bottom: 8px solid #ffd701;
+}
+
+.main-nav-link:nth-child(4) .main-nav-item:hover {
+  border-bottom: 8px solid #9acc32;
+}
+
+.main-nav-link:nth-child(5) .main-nav-item:hover {
+  border-bottom: 8px solid #6c8d22;
+}
+
+.main-nav-link:nth-child(6) .main-nav-item:hover {
+  border-bottom: 8px solid #87ceeb;
+}
+
+.main-nav-link:nth-child(7  ) .main-nav-item:hover {
+  border-bottom: 8px solid #663399;
+}
+
 .main-nav-item img {
   display: inline-block;
   position: relative;
@@ -136,7 +169,31 @@
 
 /* ==========   Promotion Main Block   ========== */
 
+.promotion-block {
+  background: white;
+}
 
+.promotion-text-block {
+  padding: 30px 10px;
+}
+
+.promotion-text-block p {
+  font-family: 'Alegreya Sans';
+  display: inline-block;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+.promotion-icon {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+.promotion-main-img {
+  width: 100%;
+  margin-bottom: -3px;
+}
 
 
 
