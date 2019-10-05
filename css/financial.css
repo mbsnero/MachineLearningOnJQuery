@@ -169,28 +169,57 @@
 
 /* ==========   Promotion Main Block   ========== */
 
-.promotion-block {
-  background: white;
-}
-
-.promotion-text-block {
-  padding: 30px 10px;
-}
-
-.promotion-text-block p {
+.financial-block {
   font-family: 'Alegreya Sans';
-  display: inline-block;
-  font-weight: 600;
-  font-size: 21px;
+  background: white;
+  padding-bottom: 40px;
 }
 
-.promotion-icon {
+.icon {
+  margin-left: 15px;
+  margin-top: 20px;
   display: inline-block;
+}
+
+.financial-title {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.financial-center-block {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 30px;  
+}
+
+.text-block {
+  display: inline-block;
+  font-size: 24px;
+  text-align: right;
+  padding-right: 8px;
+}
+
+.price-block {
+  display: inline-block;
+  font-size: 54px;
+  font-weight: 800;
+  padding-left: 8px;
+  border-left: 2px solid black;
   position: relative;
-  top: 2px;
+  top: -8px;
+  padding-bottom: 8px;
 }
 
-.promotion-main-img {
-  width: 100%;
-  margin-bottom: -3px;
+.download-btn {
+  color: #3a7594;
+  display: block;
+  border: 2px solid #3a7594;
+  padding: 30px 50px;
+  margin-bottom: 30px;
+  margin: 0 auto;
+  width: 290px;
+  font-size: 24px;
+  border-radius: 7px;
 }
