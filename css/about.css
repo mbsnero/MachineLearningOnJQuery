@@ -167,30 +167,41 @@
   margin: 25px 0;
 }
 
-/* ==========   Promotion Main Block   ========== */
+/* ==========   About Block   ========== */
 
-.promotion-block {
-  background: white;
-}
-
-.promotion-text-block {
-  padding: 30px 10px;
-}
-
-.promotion-text-block p {
+.about-block {
   font-family: 'Alegreya Sans';
+  background: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.about-title {
   display: inline-block;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-left: 5px;
 }
 
-.promotion-icon {
-  display: inline-block;
-  position: relative;
-  top: 2px;
+.about-block p {
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
-.promotion-main-img {
-  width: 100%;
-  margin-bottom: -3px;
+ol li {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
+
+.about-main-img {
+  float: right;
+}
+
+.clearfix { display: block; }
+.clearfix:after { content: ""; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; margin: 0; padding: 0; }
