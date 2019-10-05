@@ -84,9 +84,9 @@ body {
 }
 
 .main-nav-item {
-  width: 168px;
+  width: 167.2px;
   height: 80px;
-  margin-right: -5px;
+  margin-right: -2.5px;
   display: inline-block;
   box-sizing: border-box;
 }

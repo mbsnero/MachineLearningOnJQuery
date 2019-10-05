@@ -1,4 +1,5 @@
 $(document).ready( function(){
+
   $('.confirm-btn').on('click', function() {
     let data = [];
     let length = 3;
