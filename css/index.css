@@ -179,3 +179,8 @@
   font-size: 20px;
   font-weight: 300;
 }
+
+.border {
+  background: linear-gradient(90deg, crimson, tomato, gold, yellowgreen, olivedrab, skyblue, rebeccapurple);
+  height: 503px;
+}
