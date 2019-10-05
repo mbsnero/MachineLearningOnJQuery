@@ -67,6 +67,7 @@
 }
 
 .left-form-item p {
+  margin-top: 20px;
   margin-bottom: 15px;
   font-size: 20px;
 }
@@ -100,7 +101,7 @@ label {
   background-size: 100% 100%;
 }
 
-.render-item:nth-child(1) {
+/* .render-item:nth-child(1) {
   background-image: url('../img/Funny\ Island\ Ticket-2x.png');
 }
 
@@ -110,7 +111,7 @@ label {
 
 .render-item:nth-child(3) {
   background-image: url('../img/Funny\ Island\ Ticket-2x.png');
-}
+} */
 
 .render-item p {
   margin-top: 110px;
