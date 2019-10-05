@@ -167,30 +167,61 @@
   margin: 25px 0;
 }
 
-/* ==========   Promotion Main Block   ========== */
+/* ==========   Attractions Block   ========== */
 
-.promotion-block {
+.attractions-block {
+  font-family: 'Alegreya Sans'; 
   background: white;
 }
 
-.promotion-text-block {
-  padding: 30px 10px;
+.attractions-header {
+  padding: 20px 0;
 }
 
-.promotion-text-block p {
-  font-family: 'Alegreya Sans';
+.icon {
+  margin-left: 15px;
+  margin-right: 6px;
   display: inline-block;
+}
+
+.attractions-title {
+  display: inline-block;
+  font-size: 22px;
   font-weight: 600;
-  font-size: 21px;
 }
 
-.promotion-icon {
+.attractions-item {
+  width: 550px;
+  margin: 10px;
+  margin-bottom: -60px;
+  margin-top: 0px;
+  margin-left: 18px;
   display: inline-block;
-  position: relative;
-  top: 2px;
+
 }
 
-.promotion-main-img {
+.attractions-item img {
   width: 100%;
-  margin-bottom: -3px;
+  filter: grayscale(100%);
 }
+
+.attractions-item:hover img {
+  filter: grayscale(0%);
+}
+
+.attractions-item:hover .item-text-block {
+  border-bottom: 8px solid yellow;
+}
+
+.item-text-block {
+  position: relative;
+  display: inline-block;
+  background: white;
+  top: -60px;
+  left: 15px;
+  font-size: 22px;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  height: 45px;
+}
+
