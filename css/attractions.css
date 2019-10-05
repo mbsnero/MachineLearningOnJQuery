@@ -55,6 +55,7 @@
 }
 
 .item-text-block {
+  cursor: pointer;
   position: relative;
   display: inline-block;
   background: white;

@@ -15,6 +15,7 @@
 }
 
 .top-nav-item {
+  cursor: pointer;
   display: inline-block;
   margin-right: -6px;
   width: 232px;
