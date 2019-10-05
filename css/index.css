@@ -82,10 +82,6 @@
   box-sizing: border-box;
 }
 
-.main-nav-link:nth-child(1) .main-nav-item {
-  background-color: #fef0f4;
-}
-
 .main-nav-item {
   width: 168px;
   height: 80px;
@@ -95,7 +91,7 @@
 }
 
 .main-nav-link:nth-child(1) .main-nav-item {
-  border-bottom: 8px solid #dc133c;
+  border-bottom: 3px solid #dc133c;
 }
 
 .main-nav-link:nth-child(2) .main-nav-item {
@@ -167,60 +163,19 @@
   margin: 25px 0;
 }
 
-/* ==========   Promotion Main Block   ========== */
-
-.promotion-block {
-  background: white;
-}
-
-.promotion-text-block {
-  padding: 30px 10px;
-}
-
-.promotion-text-block p {
-  font-family: 'Alegreya Sans';
-  display: inline-block;
-  font-weight: 600;
-  font-size: 21px;
-}
-
-.promotion-icon {
-  display: inline-block;
-  position: relative;
-  top: 2px;
-}
-
-.promotion-main-img {
+.footer {
+  box-sizing: border-box;
   width: 100%;
-  margin-bottom: -3px;
+  height: 100px;
+  margin-top: 150px;
+  padding-top: 60px;
+  color: white;
+  background-image: url('../img/Footer-2x.png');
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========   Top Nabigation Panel   ========== */
-/* ==========   Top Nabigation Panel   ========== */
-/* ==========   Top Nabigation Panel   ========== */
+.footer p {
+  font-family: 'Alegreya Sans';
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}

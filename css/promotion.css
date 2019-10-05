@@ -1,0 +1,37 @@
+/* ==========   Main Block   ========== */
+
+.main-nav-link:nth-child(1) .main-nav-item {
+  background-color: #fef0f4;
+}
+
+.main-nav-link:nth-child(1) .main-nav-item {
+  border-bottom: 8px solid #6c8d22;
+}
+
+/* ==========   Promotion Block   ========== */
+
+.promotion-block {
+  background: white;
+}
+
+.promotion-text-block {
+  padding: 30px 10px;
+}
+
+.promotion-text-block p {
+  font-family: 'Alegreya Sans';
+  display: inline-block;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+.promotion-icon {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+.promotion-main-img {
+  width: 100%;
+  margin-bottom: -3px;
+}
